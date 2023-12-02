@@ -5,7 +5,8 @@ import 'dart:io';
 /// Call with `dart run day_generator.dart <day>`
 void main(List<String?> args) async {
   const year = '2023';
-  const session = '<your session cookie here>';
+  const session =
+      '53616c7465645f5f7882122984373e51ed1ee362cf184f1365283931c34be102cc61558aa12a61208650d34c5f5fa16f933d06455b1aebb948d499c074ddedba';
 
   if (args.length > 1) {
     print('Please call with: <dayNumber>');
